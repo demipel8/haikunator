@@ -1,7 +1,7 @@
 require "coveralls"
 Coveralls.wear!
 
-require "haikunator"
+require "ruta_destroy"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

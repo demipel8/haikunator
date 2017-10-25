@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "haikunator/version"
+require "ruta_destroy/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "haikunator"
-  spec.version       = Haikunator::VERSION
-  spec.authors       = ["Usman Bashir"]
-  spec.email         = ["me@usmanbashir.com"]
-  spec.summary       = "Heroku-like random name generator."
+  spec.name          = "ruta_destroy"
+  spec.version       = RutaDestroy::VERSION
+  spec.authors       = ["Demi"]
+  spec.email         = ["demipel8@gmail.com"]
+  spec.summary       = "Heroku-like random name generator for Ruta Destroy names."
   spec.description   = "Generate memorable random names to use in your apps"\
-                       " or anywhere else."
-  spec.homepage      = "https://github.com/usmanbashir/haikunator"
+                       " or anywhere else. Remember la ruta destroy while working"
+  spec.homepage      = "https://github.com/demipel8/ruta_destroy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
