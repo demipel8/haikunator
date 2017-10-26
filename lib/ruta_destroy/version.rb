@@ -1,3 +1,3 @@
 module RutaDestroy
-  VERSION = "0.0.q"
+  VERSION = "0.0.1"
 end
