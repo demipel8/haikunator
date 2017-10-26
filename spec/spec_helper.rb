@@ -15,9 +15,6 @@ RSpec.configure do |config|
   # Use the specified formatter
   config.formatter = :documentation
 
-  # Print top 2 slowest examples
-  config.profile_examples = 2
-
   # Run specs in random order
   config.order = :random
 end
