@@ -21,8 +21,4 @@ class SessionGenerator
   def select_disco
     @discos.sample
   end
-
-  def random_seed
-    rand(4096)
-  end
 end
