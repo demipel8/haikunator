@@ -28,14 +28,14 @@ Ruta destroy is pretty simple. There is nothing to configure and it only has a s
 ```ruby
 RutaDestroy.sesion # => "LuisBonias-Penelope-3014"
 
-# Token range
-RutaDestroy.sesion(100) # => "RafaMarco-Bananas-47"
+# Modify token length
+RutaDestroy.sesion(2) # => "RafaMarco-Bananas-47"
 
 # Don't include the token
 RutaDestroy.sesion(0) # => "CarlosSimo-Bodegón"
 
 # Use a different delimiter
-RutaDestroy.sesion(9999, '.') # => "LuisBonías.Penelope.4214"
+RutaDestroy.sesion(4, '.') # => "LuisBonías.Penelope.4214"
 
 # No token, no delimiter
 RutaDestroy.sesion(0, ' ') # => "PacoPil Distrito10"

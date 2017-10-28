@@ -16,5 +16,5 @@ RSpec.configure do |config|
   config.formatter = :documentation
 
   # Run specs in random order
-  config.order = :random
+  # config.order = :random
 end
