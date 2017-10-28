@@ -5,7 +5,7 @@ require_relative 'token_generator'
 module RutaDestroy
   def self.sesion(token_length = 4, delimiter = "-")
     token = TokenGenerator.new.generate(token_length)
-    SessionGenerator.new(self.artists, self.discos, token, delimiter).build
+    SessionGenerator.new(self.artists.sample, self.discos.sample, token, delimiter).build
   end
 
   def self.artists
